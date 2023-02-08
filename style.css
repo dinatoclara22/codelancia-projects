@@ -1,0 +1,42 @@
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+.btn-outline-info {
+  border-color: #873EFF;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  border-color: #873EFF;
+  background-color: #873EFF;
+}
+
+.btn:hover {
+  border-color: #873EFF;
+  background-color: #873EFF;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.text-green {
+  color: #04D361;
+}
+
+.text-grey {
+  color: #AEAEAE;
+}
+
+.font-ibm {
+  font-family: "IBM Plex Mono";
+}
+
+.bg-purple {
+  background-color: #171228;
+}
+
+.img-card {
+  width:549px;
+  height: 222px;
+}
