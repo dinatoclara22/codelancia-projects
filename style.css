@@ -1,42 +1,71 @@
 * {
-  font-family: "DM Sans", sans-serif;
+	font-family: "DM Sans", sans-serif;
+}
+
+.bg-page {
+  background-color: #0e091b;
 }
 
 .btn-outline-info {
-  border-color: #873EFF;
+	border-color: #873eff;
 }
 
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-  border-color: #873EFF;
-  background-color: #873EFF;
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+	border-color: #873eff;
+	background-color: #873eff;
 }
 
 .btn:hover {
-  border-color: #873EFF;
-  background-color: #873EFF;
+	border-color: #873eff;
+	background-color: #873eff;
 }
 
 .fs-7 {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .text-green {
-  color: #04D361;
+	color: #04d361;
 }
 
 .text-grey {
-  color: #AEAEAE;
+	color: #aeaeae;
 }
 
 .font-ibm {
-  font-family: "IBM Plex Mono";
+	font-family: "IBM Plex Mono";
 }
 
 .bg-purple {
-  background-color: #171228;
+	background-color: #171228;
 }
 
 .img-card {
-  width:549px;
-  height: 222px;
+	width: 549px;
+	height: 222px;
+}
+
+.border-purple {
+	border-color: #873eff;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 222px;
+	object-fit: fit;
+	
+}
+
+.img-card {
+	
+	border-radius: 23px;
+}
+
+.btn-secondary {
+	background-color: #04d361;
+	border: none;
 }
